@@ -1,0 +1,27 @@
+header {
+    height: 10vh;
+}
+main {
+    background-color: lightcoral;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: rgb(124, 105, 175);
+    position: relative;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    padding: 30px;
+    display: inline-flex;
+    box-shadow: 5px 5px 4px;
+
+}
