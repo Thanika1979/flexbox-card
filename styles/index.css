@@ -1,28 +1,208 @@
-header {
-    height: 10vh;
-}
-
-main {
-    display: flex;
-    background-color: cadetblue;
-}
-
 .container {
+    width: 1152px;
+    height: 700px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 20px;
-    padding: 40px 20px;
+    background-color: #BBCAE2;
 }
 
-.card {
+.box-one {
+    width: 468px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
     display: inline-flex;
-    position: relative;
-    margin: 20px;
-    max-width: 200px;
-    min-height: 200px;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: chocolate;
-    box-shadow: 5px 5px 4px;
+    justify-content:flex-start ;
+    align-items: flex-end;
+    background-color: #F48C06;
+    border-radius: 5px;
+}
 
+.box-one__box {
+    width: 78px;
+    height: 78px;
+    left: 313px;
+    top: 153px;
+    margin: 20px;
+    background: #7e1d20;
+    border-radius: 4px;
+}
+
+.box-second {
+    width: 468px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content:center ;
+    align-items: flex-end;
+    background-color: #F48C06;
+    border-radius: 5px;
+}
+
+.box-two__box {
+    width: 78px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: #7e1d20;
+    border-radius: 4px;
+}
+
+.box-three {
+    width: 468px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    background-color: #F48C06;
+    border-radius: 5px;
+}  
+
+.box-three__box {
+    width: 78px;
+    height: 78px;
+    left: 370px;
+    top: 311px;
+    margin: 20px;
+    margin-bottom: 41px;
+    background: #7e1d20;
+    border-radius: 4px;
+}
+
+.box-fourth {
+    width: 468px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    background-color: #F48C06;
+    border-radius: 5px;
+}
+.box-four__one {
+    width: 78px;
+    height: 78px;
+    left: 606px;
+    top: 290px;
+    margin: 20px;
+    margin-bottom: 62px;
+    background: #7e1d20;
+    border-radius: 4px;
+}
+.box-four__two {
+    width: 78px;
+    height: 78px;
+    left: 606px;
+    top: 290px;
+    margin: 20px;
+    margin-bottom: 62px;
+    background: #7e1d20;
+    border-radius: 4px;
+}
+.box-four__three {
+    width: 78px;
+    height: 78px;
+    left: 606px;
+    top: 290px;
+    margin: 20px;
+    margin-top: 62px;
+    background: #7e1d20;
+    border-radius: 4px;
+}
+.box-five {
+    width: 468px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content:flex-start ;
+    align-items: flex-end;
+    background-color: #F48C06;
+    border-radius: 5px;
+} 
+
+.box-five__one {
+    width: 78px;
+    height: 120px;
+    margin-left: 63px;
+    margin-bottom: 20px;
+    background: #7e1d20;
+    border-radius: 4px;
+}
+.box-five__two {
+    width: 78px;
+    height: 64px;
+    left: 293px;
+    top: 493px;
+    margin: 54px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: #7e1d20;
+    border-radius: 4px;
+}
+.box-five__three {
+    width: 78px;
+    height: 120px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: #7e1d20;
+    border-radius: 4px;
+}
+.box-five__info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 10px;
+
+
+}
+.box-six {
+    width: 468px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content:flex-start ;
+    align-items: flex-end;
+    background-color: #F48C06;
+    border-radius: 5px;
+} 
+.box-six__one {
+    width: 78px;
+    height: 78px;
+    left: 644px;
+    top: 491px;
+    margin-left: 58px;
+    margin-bottom: 41px;
+    background: #7e1d20;
+    border-radius: 4px;
+}
+.box-six__two {
+    width: 156px;
+    height: 78px;
+    left: 742px;
+    top: 491px;
+    margin-left: 20px;
+    margin-bottom: 41px;
+    background: #7e1d20;
+    border-radius: 4px;
+}
+.box-six__three {
+    width: 78px;
+    height: 78px;
+    left: 644px;
+    top: 491px;
+    margin-left: 20px;
+    margin-bottom: 41px;
+    background: #7e1d20;
+    border-radius: 4px;
 }
